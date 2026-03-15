@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.run/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# macOS
+.DS_Store
+
+# Fabric Loom caches
+.fabric/
+remappedSources/
+
+# Wrapper jar (binary – not stored in source control; run `gradle wrapper` to regenerate)
+gradle/wrapper/gradle-wrapper.jar

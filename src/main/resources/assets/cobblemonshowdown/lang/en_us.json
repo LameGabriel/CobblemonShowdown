@@ -1,0 +1,16 @@
+{
+  "cobblemonshowdown.command.player_only": "This command can only be run by a player.",
+
+  "cobblemonshowdown.queue.joined":          "You joined the queue! Players waiting: %s (your position: %s)",
+  "cobblemonshowdown.queue.already_joined":  "You are already in the queue.",
+  "cobblemonshowdown.queue.in_battle":       "You cannot join the queue while you are in a battle.",
+
+  "cobblemonshowdown.queue.left":            "You left the queue.",
+  "cobblemonshowdown.queue.not_in_queue":    "You are not currently in the queue.",
+
+  "cobblemonshowdown.queue.status":          "Players in queue: %s",
+  "cobblemonshowdown.queue.status_position": "Players in queue: %s (your position: %s)",
+
+  "cobblemonshowdown.queue.battle_found":    "A match was found! Your battle is starting…",
+  "cobblemonshowdown.queue.battle_failed":   "Failed to start your battle: %s"
+}

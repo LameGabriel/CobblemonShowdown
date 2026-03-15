@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemonshowdown",
+  "version": "${version}",
+  "name": "Cobblemon Showdown",
+  "description": "Adds a matchmaking queue so players can battle each other via the Cobblemon battle system.",
+  "authors": ["LameGabriel"],
+  "contact": {
+    "sources": "https://github.com/LameGabriel/CobblemonShowdown"
+  },
+  "license": "MIT",
+  "icon": "assets/cobblemonshowdown/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.lame.cobblemonshowdown.CobblemonShowdown"
+      }
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.12.3+kotlin.2.0.0",
+    "cobblemon": "*"
+  }
+}
